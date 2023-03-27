@@ -9,7 +9,7 @@ public class BinaryMultiplication {
         c=a;
         while(a!=0&&b!=0){
             if(b%2!=0) {
-                c = add(c, a * b % 2 * dozens);
+                c = add(c, a * (b % 2) * dozens);
             }
             dozens *=10;
             b/=10;
