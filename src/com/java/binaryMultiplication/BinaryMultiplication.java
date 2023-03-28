@@ -3,11 +3,10 @@ package com.java.binaryMultiplication;
 public class BinaryMultiplication {
     public static void main(String args[]){
         int a, b, c = 0;
-        a = 10;
-        b = 11;
+        a = 10111;
+        b = 111;
         int dozens = 1;
-        c=a;
-        while(a!=0&&b!=0){
+        while(b!=0){
             if(b%2!=0) {
                 c = add(c, a * (b % 2) * dozens);
             }
